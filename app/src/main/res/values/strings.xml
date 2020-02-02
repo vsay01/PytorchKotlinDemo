@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PytorchKotlinDemo</string>
+    <string name="select_or_capture_image">Select or Capture Image</string>
+    <string name="tell_me">Tell me</string>
+</resources>
