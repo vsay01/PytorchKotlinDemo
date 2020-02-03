@@ -45,7 +45,7 @@ traced_script_module.save("./serialized_model.pt")
 
 After this operations, we should have a useable model, serialized_model.pt.
 
-## Reference
+## References
 
 [Android demo github](https://github.com/pytorch/android-demo-app)
 
