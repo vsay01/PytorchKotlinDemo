@@ -1,12 +1,12 @@
 # PytorchKotlinDemo
 
-This is an Android project wirtten in kotlin to show a simple image classification application that use Android PyTorch API and trained PyTorch model.
+This is an Android project written in Kotlin to show a simple image classification application that uses Android PyTorch API and a trained PyTorch model.
 
 In this demo application, user can either upload a picture or take photo. Then run the image analysis on the picture.
 
 ## Architecture
 
-I follow one of the [android google architecture component sample](https://github.com/android/architecture-components-samples/tree/master/LiveDataSample).
+I followed one of the [android google architecture component sample](https://github.com/android/architecture-components-samples/tree/master/LiveDataSample).
 
 This sample showcases the following Architecture Components:
 
@@ -18,9 +18,9 @@ This sample showcases the following Architecture Components:
 
 In [Android demo github](https://github.com/pytorch/android-demo-app), it describe in detail how the PyTorch model generated. 
 
-We cannot use the direct saved model in the notebook, we need to serialize that saved model.
+We cannot use the saved model directly in the notebook, we need to serialize that saved model.
 
-In the Jupyter notebook that I trained the mdoel, I can do the following
+In the Jupyter notebook where I trained the model, I can do the following
 
 
 ```
@@ -43,7 +43,7 @@ traced_script_module = torch.jit.trace(loaded_model, example)
 traced_script_module.save("./serialized_model.pt")
 ```
 
-After this operations, we should have a useable model, serialized_model.pt.
+After this operations, we should have a usable model, serialized_model.pt.
 
 ## References
 
